@@ -9,5 +9,6 @@ const age = 31;
 const isStudent = true;
 
 console.log(fullName);
-console.log(`Age: ${age}`);
+console.log(`Ålder: ${age}`);
 console.log(`Student: ${isStudent}`);
+
