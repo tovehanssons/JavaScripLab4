@@ -1,3 +1,4 @@
+/* Lösning till uppgift 2: Beräkning av totalpris och pris inkl moms. Av Tove Hansson, 2026*/
 
 "use strict";
 
@@ -10,5 +11,5 @@ const totalWithMoms = totalPrice + moms;
 console.log(`Pris: ${price}kr`);
 console.log(`Antal produkter: ${productCount}`);
 console.log(`Totalpris: ${totalPrice}kr`);
-console.log(`Totalt inkl moms: ${moms}kr`);
+console.log(`Totalt inkl moms: ${totalWithMoms}kr`);
 
