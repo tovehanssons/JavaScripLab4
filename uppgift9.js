@@ -1,4 +1,5 @@
-
+/* Lösning till uppgift 9: Array med personobjekt
+som kontrollerar om varje person är myndig. Av Tove Hansson, 2026 */
 
 "use strict";
 
@@ -19,3 +20,15 @@ const people = [
         city: "Edsbyn"
     }
 ];
+
+function printPersonInfo(person) {
+    if (person.age >= 18) {
+        console.log(`${person.name} bor i ${person.city} och är myndig.`);
+    } else {
+        console.log(`${person.name} bor i ${person.city} och är inte myndig.`);
+    }
+}
+
+for (let i = 0; i < people.length; i++) {
+    printPersonInfo(people[i]);
+}
