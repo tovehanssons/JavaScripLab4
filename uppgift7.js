@@ -8,6 +8,7 @@ const numbers = [2, 4, 6, 8, 10, 12];
 const calculateSum = function(array) {
     let sum = 0;
 
+/* Loopen går igenom arrayen och lägger till varje tal i summan */
     for (let i = 0; i < array.length; i++) {
         sum = sum + array[i];
     }

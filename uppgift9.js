@@ -21,6 +21,8 @@ const people = [
     }
 ];
 
+/* Funktionen kontrollerar personens ålder och visar om personen är myndig eller inte. */
+
 function printPersonInfo(person) {
     if (person.age >= 18) {
         console.log(`${person.name} bor i ${person.city} och är myndig.`);
@@ -28,6 +30,8 @@ function printPersonInfo(person) {
         console.log(`${person.name} bor i ${person.city} och är inte myndig.`);
     }
 }
+
+/* Loopen igår genom arrayen och anropar funktionen för varje personobjekt. */
 
 for (let i = 0; i < people.length; i++) {
     printPersonInfo(people[i]);
